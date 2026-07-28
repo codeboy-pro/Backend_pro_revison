@@ -39,8 +39,11 @@ app.patch("/notes/:index",(req,res)=>{
     notes[index].description=description;
     res.status(200).json({
         message:"Note updated successfully"
-
     })
 })
 
 module.exports=app;
+
+//jR8KKwR34o1ogfqk
+
+//  mongodb+srv://Back:jR8KKwR34o1ogfqk@cluster0.hlwlamf.mongodb.net/
